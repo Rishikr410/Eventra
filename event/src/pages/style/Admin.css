@@ -1,0 +1,71 @@
+.admin-page {
+  color: var(--surface-dark-text);
+}
+
+.admin-page .bg-white,
+.admin-page .bg-gray-50,
+.admin-page .border,
+.admin-page table,
+.admin-page .rounded,
+.admin-page .rounded-lg {
+  border-color: rgba(148, 163, 184, 0.22) !important;
+}
+
+.admin-page .bg-white {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 251, 255, 0.98)) !important;
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.08);
+}
+
+.admin-page .bg-gray-50 {
+  background: rgba(241, 245, 249, 0.72) !important;
+}
+
+.admin-page input,
+.admin-page select,
+.admin-page textarea {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-color: rgba(148, 163, 184, 0.26) !important;
+  color: #0f172a !important;
+}
+
+[data-theme="dark"] .admin-page {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .admin-page .bg-white {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.94), rgba(17, 24, 39, 0.96)) !important;
+  box-shadow: 0 24px 56px rgba(2, 6, 23, 0.36);
+}
+
+[data-theme="dark"] .admin-page .bg-gray-50,
+[data-theme="dark"] .admin-page .bg-blue-50,
+[data-theme="dark"] .admin-page .bg-green-50,
+[data-theme="dark"] .admin-page .bg-yellow-50,
+[data-theme="dark"] .admin-page .bg-indigo-50,
+[data-theme="dark"] .admin-page .bg-pink-50,
+[data-theme="dark"] .admin-page .bg-orange-50,
+[data-theme="dark"] .admin-page .bg-emerald-50,
+[data-theme="dark"] .admin-page .bg-sky-50 {
+  background: rgba(30, 41, 59, 0.72) !important;
+}
+
+[data-theme="dark"] .admin-page .text-gray-800,
+[data-theme="dark"] .admin-page .text-gray-700,
+[data-theme="dark"] .admin-page .font-semibold,
+[data-theme="dark"] .admin-page th,
+[data-theme="dark"] .admin-page td {
+  color: #e2e8f0 !important;
+}
+
+[data-theme="dark"] .admin-page .text-gray-600,
+[data-theme="dark"] .admin-page .text-gray-500 {
+  color: #94a3b8 !important;
+}
+
+[data-theme="dark"] .admin-page input,
+[data-theme="dark"] .admin-page select,
+[data-theme="dark"] .admin-page textarea {
+  background: rgba(15, 23, 42, 0.82) !important;
+  border-color: rgba(148, 163, 184, 0.2) !important;
+  color: #e2e8f0 !important;
+}
